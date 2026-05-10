@@ -6,10 +6,6 @@
 #include <QFile>
 #include <QMessageBox>
 
-#include <QApplication>
-#include <QTextStream>
-
-
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -38,20 +34,16 @@ private slots:
     void on_actionSelect_All_triggered();
     void on_actionSelect_None_triggered();
 
+    //View menüsü slotları
+    void on_actionToolbar_Top_triggered();
+    void on_actionToolbar_Buttom_triggered();
+    void on_actionToolbar_Right_2_triggered();
+    void on_actionToolbar_Left_triggered();
+    void on_actionToolbar_Floatable_triggered();
+    void on_actionToolbar_Movable_triggered();
+
     //Forms menüsü slotları
     void on_actionOpen_Form_triggered();
-
-    void on_actionToolbar_Top_triggered();
-
-    void on_actionToolbar_Buttom_triggered();
-
-    void on_actionToolbar_Right_2_triggered();
-
-    void on_actionToolbar_Left_triggered();
-
-    void on_actionToolbar_Floatable_triggered();
-
-    void on_actionToolbar_Movable_triggered();
 
 private:
     Ui::MainWindow *ui;
