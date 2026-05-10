@@ -7,3 +7,7 @@ Bu haftanın laboratuvar dersinde, QPushButton bileşeni üzerinden interaktif k
 # Week 9: Custom Analog Clock (Analog Saat Uygulaması)
 
 Bu haftaki uygulamada, Qt Framework içerisinde yer alan `QPainter` sınıfı kullanılarak sıfırdan özel bir widget (analog saat) çizimi gerçekleştirilmiştir. Saat, sistem saatini anlık olarak okuyarak akrep, yelkovan ve saniye kollarını matematiksel hesaplamalarla doğru açılarda ekrana yansıtır.
+
+# 10. Hafta: Mini Text Editör Uygulaması
+
+Laboratuvarın 10. haftasında, temel metin düzenleme işlevlerine sahip görsel bir editör uygulaması geliştirilmiştir. QTextEdit bileşeni kullanılarak metin girişi ve düzenleme alanı oluşturulmuş; QFileDialog aracılığıyla sistemdeki dosyaları açma, okuma ve düzenlenmiş metni kaydetme gibi dosya giriş/çıkış (I/O) işlemleri başarıyla uygulanmıştır. Ayrıca, kullanıcı arayüzü üzerinden metinlerin temizlenmesi ve temel dosya yönetim mekanizmalarının entegrasyonu üzerine çalışılarak, gerçek dünya senaryolarına yönelik kapsamlı bir araç tasarlanmıştır.
