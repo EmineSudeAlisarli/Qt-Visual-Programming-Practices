@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>695</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="grb_yas">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>220</y>
+     <width>191</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Yaşı</string>
+   </property>
+   <widget class="QRadioButton" name="rdb_5kucuk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>5'den küçük</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdb_5buyuk">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>5'den büyük ve eşit</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QCheckBox" name="chb_yasi">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>75</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Yaşı</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chb_vites">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Vites</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="grb_vites">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>220</y>
+     <width>201</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Vites Turleri</string>
+   </property>
+   <widget class="QRadioButton" name="rd_yariOtomatik">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>89</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Yari Otomatik</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_manuel">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>89</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Manuel</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rd_otomatik">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>89</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Otomatik</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QCheckBox" name="chb_yakit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>75</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Yakıt</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Filtreleme Seçenekleriniz Seçiniz</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txt_filtreler">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>40</y>
+     <width>331</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_altSecimler">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>380</y>
+     <width>611</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alt Secimleri Listele</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_FListele">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>170</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Filtrere Listele</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="grb_yakit">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>220</y>
+     <width>181</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Yakit Turleri</string>
+   </property>
+   <widget class="QRadioButton" name="rb_dizel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>89</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dizel</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_benzin">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>89</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Benzin</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="btn_temizle">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>170</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Temizle</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
