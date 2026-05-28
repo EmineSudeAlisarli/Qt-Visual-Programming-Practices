@@ -7,6 +7,10 @@ Bu haftanın laboratuvar dersinde, QPushButton bileşeni üzerinden interaktif k
 # 4. Hafta: Algoritmik Karar Yapıları ve Arayüz Etkileşimi
 Bu haftanın çalışmalarında, Qt arayüz bileşenleri ile temel C++ algoritmalarının entegrasyonu üzerine yoğunlaşılmıştır. Teorik ders kapsamında, nesne listelerini belirli kriterlere göre süzen bir "Araba Filtreleme Arayüzü" ve kullanıcı etkileşimli bir "Sayı Tahmini" oyunu geliştirilmiştir. Laboratuvar uygulamalarında ise; girilen bir sayının matematiksel olarak analiz edildiği "Asal Sayı Bulma" arayüzü ile vize ve final notlarını girdi olarak alıp ders başarı durumunu hesaplayan "Not Hesaplama Sistemi" tasarlanmıştır. Bu projelerle, QLineEdit üzerinden alınan verilerin dönüştürülmesi ve karmaşık if-else mantık yapılarının görselleştirilmesi pekiştirilmiştir.
 
+# 5. Hafta: Dinamik Arayüz ve Özellik Yönetimi
+
+Bu hafta, Qt Framework üzerinde kullanıcı arayüzü bileşenlerinin dinamik olarak oluşturulması ve mevcut arayüz öğelerinin çalışma zamanında (runtime) özelleştirilmesi konularına odaklanılmıştır.
+
 # 9. Hafta: Analog Saat Uygulaması
 
 Bu haftaki uygulamada, Qt Framework içerisinde yer alan `QPainter` sınıfı kullanılarak sıfırdan özel bir widget (analog saat) çizimi gerçekleştirilmiştir. Saat, sistem saatini anlık olarak okuyarak akrep, yelkovan ve saniye kollarını matematiksel hesaplamalarla doğru açılarda ekrana yansıtır.
