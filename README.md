@@ -18,3 +18,10 @@ Bu haftaki uygulamada, Qt Framework içerisinde yer alan `QPainter` sınıfı ku
 # 10. Hafta: Mini Text Editör Uygulaması
 
 Laboratuvarın 10. haftasında, temel metin düzenleme işlevlerine sahip görsel bir editör uygulaması geliştirilmiştir. QTextEdit bileşeni kullanılarak metin girişi ve düzenleme alanı oluşturulmuş; QFileDialog aracılığıyla sistemdeki dosyaları açma, okuma ve düzenlenmiş metni kaydetme gibi dosya giriş/çıkış (I/O) işlemleri başarıyla uygulanmıştır. Ayrıca, kullanıcı arayüzü üzerinden metinlerin temizlenmesi ve temel dosya yönetim mekanizmalarının entegrasyonu üzerine çalışılarak, gerçek dünya senaryolarına yönelik kapsamlı bir araç tasarlanmıştır.
+
+# 11. Hafta: TCP Soket Programlama
+- **Soket Kavramı:** Alıcı ve gönderici arasındaki iletişimi yöneten programlama tekniği.
+- **TCP Sunucu Uygulaması:** `QTcpServer` kullanılarak geliştirilen, istemci (client) bağlantılarını dinleyen ve veri alışverişi sağlayan yapı.
+- **Bağlantı Yönetimi:** `bind()`, `listen()`, `accept()` ve `recv()` gibi temel soket fonksiyonlarının işleyişi.
+
+
